@@ -1,4 +1,4 @@
-:root{
+:root {
   --white: hsl(0, 0%, 100%);
   --stone-100: hsl(30, 54%, 90%);
   --stone-150: hsl(30, 18%, 87%);
@@ -8,7 +8,7 @@
   --rose-800: hsl(332, 51%, 32%);
   --rose-50: hsl(330, 100%, 98%);
 
-/*font sizes*/
+  /*font sizes*/
   --fs-200: 0.8rem;
   --fs-300: 0.875rem;
   --fs-400: 1rem;
@@ -24,17 +24,23 @@
   --fw-700: 700;
 }
 
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
 .container {
   max-width: 500px;
   margin: 0 auto;
+}
+
+.content-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 img {
