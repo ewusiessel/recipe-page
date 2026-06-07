@@ -25,6 +25,8 @@
 
   /*spacing*/
   --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-14: 14px;
   --spacing-10: 10px;
   --spacing-16: 16px;
   --spacing-25: 25px;
@@ -68,7 +70,7 @@
   border-radius: 8px;
   font-family: "Outfit", sans-serif;
   font-size: var(--fs-200);
-  
+  margin-top: var(--spacing-8);
 }
 
 .preparation-time p {
