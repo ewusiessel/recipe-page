@@ -67,6 +67,27 @@
   line-height: 1.5;
 }
 
+img {
+  max-width: 500px;
+  height: auto;
+  position: relative;
+  top: -50%;
+  padding: 0;
+}
+
+.description,
+.ingredients,
+.preparation-time,
+.instructions,
+.nutrition {
+  width: 100%;
+  position: relative;
+  top: -50%;
+  padding: 20px;
+}
+
+/* Preparation time section */
+
 .preparation-time {
   background-color: var(--rose-50);
   border-radius: 8px;
@@ -103,24 +124,28 @@
 }
 
 .preparation-time li:first-child {
- padding-top: var(--spacing-10);
+  margin-top: var(--spacing-10);
 }
 
-img {
-  max-width: 500px;
-  height: auto;
-  position: relative;
-  top: -50%;
+/* Ingredients section */
+
+.ingredients {
   padding: 0;
 }
 
-.description,
-.ingredients,
-.preparation-time,
-.instructions,
-.nutrition {
-  width: 100%;
-  position: relative;
-  top: -50%;
-  padding: 20px;
+h2 {
+  font-family: "Young Serif", serif;
+  font-size: var(--fs-600);
+  color: var(--brown-800);
+  font-weight: var(--fw-200);
+
+  margin-bottom: var(--spacing-12);
+}
+
+.ingredients li {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--fs-300);
+  color: var(--stone-600);
+  line-height: 1.5;
+  padding: var(--spacing-5);
 }
