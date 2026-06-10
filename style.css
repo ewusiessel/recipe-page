@@ -24,6 +24,8 @@
   --fw-700: 700;
 
   /*spacing*/
+  --spacing-5: 5px;
+  --spacing-6: 6px;
   --spacing-8: 8px;
   --spacing-12: 12px;
   --spacing-14: 14px;
@@ -60,7 +62,7 @@
 
 .content-section p {
   font-family: "Outfit", sans-serif;
-  font-size: var(--fs-200);
+  font-size: var(--fs-300);
   color: var(--stone-600);
   line-height: 1.5;
 }
@@ -69,27 +71,39 @@
   background-color: var(--rose-50);
   border-radius: 8px;
   font-family: "Outfit", sans-serif;
-  font-size: var(--fs-200);
+  font-size: var(--fs-00);
   margin-top: var(--spacing-8);
 }
 
 .preparation-time p {
   font-weight: var(--fw-600);
-  font-size: var(--fs-300);
+  font-size: var(--fs-400);
   color: var(--rose-800);
   font-family: "Outfit", sans-serif;
 }
 
 .preparation-time li {
   font-weight: var(--fw-400);
-  font-size: var(--fs-200);
+  font-size: var(--fs-300);
   color: var(--stone-600);
   font-family: "Outfit", sans-serif;
-  padding: var(--spacing-8);
+  padding: var(--spacing-5);
 }
 
-.preparation ul {
-  padding: var(--spacing-19);
+.preparation-time li::marker {
+  color: var(--rose-800);
+}
+
+.bold {
+  font-weight: var(--fw-600);
+}
+
+.preparation-time ul {
+  padding-left: 1.5rem;
+}
+
+.preparation-time li:first-child {
+ padding-top: var(--spacing-10);
 }
 
 img {
