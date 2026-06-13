@@ -138,7 +138,6 @@ h2 {
   font-size: var(--fs-600);
   color: var(--brown-800);
   font-weight: var(--fw-200);
-
   margin-bottom: var(--spacing-12);
 }
 
@@ -167,4 +166,23 @@ h2 {
 
 hr {
   width: 100%;
+}
+
+/* Instructions section */
+
+.instructions li {
+  font-family: "Outfit", sans-serif;
+  font-size: var(--fs-400);
+  color: var(--stone-600);
+  line-height: 1.5;
+  padding: var(--spacing-5);
+}
+
+.instructions ol {
+  padding-left: 1.5rem;
+}
+
+.ingredients li::marker {
+  color: var(--brown-800);
+
 }
