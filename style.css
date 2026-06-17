@@ -168,7 +168,9 @@ h2 {
 }
 
 hr {
+  border: none;
   width: 100%;
+  border-top: 1px solid var(--stone-150);
 }
 
 /* Instructions section */
@@ -205,4 +207,8 @@ td {
 
 .rose-800 {
   color: var(--rose-800);
+}
+
+.no-border {
+  border-bottom: none;
 }
